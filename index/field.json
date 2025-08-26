@@ -1,0 +1,20 @@
+{
+    "64dc5d42-2334-46e7-8372-e1b5e2ac9424": {
+        "name": "tb",
+        "path": "src\/field\/64dc5d42-2334-46e7-8372-e1b5e2ac9424",
+        "settings": "src\/field\/64dc5d42-2334-46e7-8372-e1b5e2ac9424\/item.json",
+        "guid": "64dc5d42-2334-46e7-8372-e1b5e2ac9424"
+    },
+    "68699537-3391-400c-af78-177327570b4e": {
+        "name": "Identification code",
+        "path": "src\/field\/68699537-3391-400c-af78-177327570b4e",
+        "settings": "src\/field\/68699537-3391-400c-af78-177327570b4e\/item.json",
+        "guid": "68699537-3391-400c-af78-177327570b4e"
+    },
+    "96d63e51-c004-42f0-8dd4-ffd711ad391e": {
+        "name": "ta",
+        "path": "src\/field\/96d63e51-c004-42f0-8dd4-ffd711ad391e",
+        "settings": "src\/field\/96d63e51-c004-42f0-8dd4-ffd711ad391e\/item.json",
+        "guid": "96d63e51-c004-42f0-8dd4-ffd711ad391e"
+    }
+}
