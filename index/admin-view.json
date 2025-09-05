@@ -26,5 +26,26 @@
         "settings": "src\/admin_view\/f178a13e-e364-4d49-b39c-b77bac931787\/item.json",
         "guid": "f178a13e-e364-4d49-b39c-b77bac931787",
         "desc": "ta"
+    },
+    "5274216a-5a18-4e25-81e6-f006d1344781": {
+        "name": "Treks",
+        "path": "src\/admin_view\/5274216a-5a18-4e25-81e6-f006d1344781",
+        "settings": "src\/admin_view\/5274216a-5a18-4e25-81e6-f006d1344781\/item.json",
+        "guid": "5274216a-5a18-4e25-81e6-f006d1344781",
+        "desc": "Treks"
+    },
+    "55aac7da-e105-4ab2-9c34-6ee44e8b692c": {
+        "name": "Places",
+        "path": "src\/admin_view\/55aac7da-e105-4ab2-9c34-6ee44e8b692c",
+        "settings": "src\/admin_view\/55aac7da-e105-4ab2-9c34-6ee44e8b692c\/item.json",
+        "guid": "55aac7da-e105-4ab2-9c34-6ee44e8b692c",
+        "desc": "Relevant places in the area"
+    },
+    "eafd26f7-b13c-4c36-b8a3-ae7d71febb24": {
+        "name": "Locations",
+        "path": "src\/admin_view\/eafd26f7-b13c-4c36-b8a3-ae7d71febb24",
+        "settings": "src\/admin_view\/eafd26f7-b13c-4c36-b8a3-ae7d71febb24\/item.json",
+        "guid": "eafd26f7-b13c-4c36-b8a3-ae7d71febb24",
+        "desc": "List of locations"
     }
 }
