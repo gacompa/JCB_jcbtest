@@ -45,6 +45,9 @@ This ensures maintainability while still allowing total customization per projec
 ### Index of Admin Views
 
 
+ - **Locations** | [Details](src/admin_view/eafd26f7-b13c-4c36-b8a3-ae7d71febb24) | [Settings](src/admin_view/eafd26f7-b13c-4c36-b8a3-ae7d71febb24/item.json) | List of locations
+ - **Places** | [Details](src/admin_view/55aac7da-e105-4ab2-9c34-6ee44e8b692c) | [Settings](src/admin_view/55aac7da-e105-4ab2-9c34-6ee44e8b692c/item.json) | Relevant places in the area
+ - **Treks** | [Details](src/admin_view/5274216a-5a18-4e25-81e6-f006d1344781) | [Settings](src/admin_view/5274216a-5a18-4e25-81e6-f006d1344781/item.json) | Treks
  - **tas** | [Details](src/admin_view/f178a13e-e364-4d49-b39c-b77bac931787) | [Settings](src/admin_view/f178a13e-e364-4d49-b39c-b77bac931787/item.json) | ta
  - **tbs** | [Details](src/admin_view/33c892eb-470a-4424-bdb9-08c4e9c0c7b2) | [Settings](src/admin_view/33c892eb-470a-4424-bdb9-08c4e9c0c7b2/item.json) | tb
  - **tcs** | [Details](src/admin_view/d33d1bae-79cc-4c3c-9a22-5fe7e493f014) | [Settings](src/admin_view/d33d1bae-79cc-4c3c-9a22-5fe7e493f014/item.json) | tc
