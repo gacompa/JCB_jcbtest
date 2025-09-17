@@ -45,6 +45,7 @@ This ensures maintainability while still allowing total customization per projec
 ### Index of Admin Views
 
 
+ - **Destinazione** | [Details](src/admin_view/ab6a58ce-5d20-4c0a-819b-78b06c1f6535) | [Settings](src/admin_view/ab6a58ce-5d20-4c0a-819b-78b06c1f6535/item.json) | Destinazioni
  - **Locations** | [Details](src/admin_view/eafd26f7-b13c-4c36-b8a3-ae7d71febb24) | [Settings](src/admin_view/eafd26f7-b13c-4c36-b8a3-ae7d71febb24/item.json) | List of locations
  - **Places** | [Details](src/admin_view/55aac7da-e105-4ab2-9c34-6ee44e8b692c) | [Settings](src/admin_view/55aac7da-e105-4ab2-9c34-6ee44e8b692c/item.json) | Relevant places in the area
  - **Treks** | [Details](src/admin_view/5274216a-5a18-4e25-81e6-f006d1344781) | [Settings](src/admin_view/5274216a-5a18-4e25-81e6-f006d1344781/item.json) | Treks
