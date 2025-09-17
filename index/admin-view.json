@@ -47,5 +47,12 @@
         "settings": "src\/admin_view\/eafd26f7-b13c-4c36-b8a3-ae7d71febb24\/item.json",
         "guid": "eafd26f7-b13c-4c36-b8a3-ae7d71febb24",
         "desc": "List of locations"
+    },
+    "ab6a58ce-5d20-4c0a-819b-78b06c1f6535": {
+        "name": "Destinazione",
+        "path": "src\/admin_view\/ab6a58ce-5d20-4c0a-819b-78b06c1f6535",
+        "settings": "src\/admin_view\/ab6a58ce-5d20-4c0a-819b-78b06c1f6535\/item.json",
+        "guid": "ab6a58ce-5d20-4c0a-819b-78b06c1f6535",
+        "desc": "Destinazioni"
     }
 }
