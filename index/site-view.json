@@ -19,5 +19,12 @@
         "path": "src\/site_view\/e6bc3a5f-909e-493c-ba8a-6a79b555b2f7",
         "settings": "src\/site_view\/e6bc3a5f-909e-493c-ba8a-6a79b555b2f7\/item.json",
         "guid": "e6bc3a5f-909e-493c-ba8a-6a79b555b2f7"
+    },
+    "6899baa6-4767-4a67-b584-55d5087a9a4f": {
+        "name": "Places",
+        "desc": "places",
+        "path": "src\/site_view\/6899baa6-4767-4a67-b584-55d5087a9a4f",
+        "settings": "src\/site_view\/6899baa6-4767-4a67-b584-55d5087a9a4f\/item.json",
+        "guid": "6899baa6-4767-4a67-b584-55d5087a9a4f"
     }
 }
