@@ -59,6 +59,7 @@ Whether you're building for:
 
 
  - **Locations** | [Details](src/dynamic_get/e12b2a0d-b122-4bd4-a6b5-29fe926ecf8c) | [Settings](src/dynamic_get/e12b2a0d-b122-4bd4-a6b5-29fe926ecf8c/item.json)
+ - **Map** | [Details](src/dynamic_get/90cb8f6b-8960-48f4-9536-7a30b0467117) | [Settings](src/dynamic_get/90cb8f6b-8960-48f4-9536-7a30b0467117/item.json)
  - **OneLocation** | [Details](src/dynamic_get/3be68f12-de47-4363-8f2e-678d788c12d4) | [Settings](src/dynamic_get/3be68f12-de47-4363-8f2e-678d788c12d4/item.json)
  - **Places** | [Details](src/dynamic_get/70588322-3cb7-469a-bd9b-84c10d602c29) | [Settings](src/dynamic_get/70588322-3cb7-469a-bd9b-84c10d602c29/item.json)
 
