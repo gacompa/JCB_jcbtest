@@ -12,5 +12,12 @@
         "settings": "src\/joomla_component\/2f178bc9-ea50-466d-8463-fcad5ca93908\/item.json",
         "guid": "2f178bc9-ea50-466d-8463-fcad5ca93908",
         "desc": "Management of bookings for hikes or routes"
+    },
+    "0644c779-8948-4672-877e-13f8798c12cb": {
+        "name": "Development Journal",
+        "path": "src\/joomla_component\/0644c779-8948-4672-877e-13f8798c12cb",
+        "settings": "src\/joomla_component\/0644c779-8948-4672-877e-13f8798c12cb\/item.json",
+        "guid": "0644c779-8948-4672-877e-13f8798c12cb",
+        "desc": "Container of project development notes"
     }
 }
