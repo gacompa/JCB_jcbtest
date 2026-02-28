@@ -89,5 +89,12 @@
         "settings": "src\/admin_view\/e3b0b470-2798-472f-bfba-e5b6b84c16ea\/item.json",
         "guid": "e3b0b470-2798-472f-bfba-e5b6b84c16ea",
         "desc": "The project describbed in notes"
+    },
+    "e3cfdc97-5c5f-48b0-8580-f909639c2a21": {
+        "name": "Fasciolo presenze",
+        "path": "src\/admin_view\/e3cfdc97-5c5f-48b0-8580-f909639c2a21",
+        "settings": "src\/admin_view\/e3cfdc97-5c5f-48b0-8580-f909639c2a21\/item.json",
+        "guid": "e3cfdc97-5c5f-48b0-8580-f909639c2a21",
+        "desc": "Presenze Fasciolo"
     }
 }
