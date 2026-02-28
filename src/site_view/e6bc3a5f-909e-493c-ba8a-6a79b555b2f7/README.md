@@ -1,7 +1,7 @@
 ### JCB! Site View
-# Map (map)
+# Places map (places_map)
 
-Map of locations
+Display of places map
 
 ## HTML:
 ```html
@@ -30,6 +30,11 @@ document.addEventListener('DOMContentLoaded', function() {
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
+    // Aggiungi il layer con curve di livello
+    var topoLayer = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+        maxZoom: 17,
+        attribution: 'Map data: &copy; OpenStreetMap contributors, SRTM | Map style: &copy; OpenTopoMap (CC-BY-SA)'
+    }).addTo(map);
 
     // Get the locations from PHP and parse them into a JavaScript object.
     const places = <?php echo json_encode($this->items); ?>;
@@ -41,11 +46,35 @@ document.addEventListener('DOMContentLoaded', function() {
         const lng = parseFloat(place.longitude);
 
         if (!isNaN(lat) && !isNaN(lng)) {
-            const marker = L.marker([lat, lng]).addTo(map);
-            marker.bindPopup(`<b>${place.place}</b><br>${place.altitude}`);
-            markers.push(marker);
+        const markerOptions = {
+            radius: 10,           // Increased size for visibility
+            fillColor: "#ff0000",   // Red color
+            color: "#ffffff",   // Outline color (white creates a "halo" effect)
+            weight: 2,            // Thickness of the outline
+            opacity: 1,           // Opacity of the outline
+            fillOpacity: 0.9,     // Makes the color more solid
+            pane: 'markerPane',   // Ensures markers stay above the map layers
+            interactive: true,    // Set to false if you want the marker to be "ghost"
+            className: 'pulsing-marker' // Add a CSS class for animations            radius: 8,
+        };
+        const marker = L.circleMarker([lat, lng], markerOptions).addTo(map);
+
+        // Use bindTooltip for "hover" behavior
+        // 'sticky: true' makes the tooltip follow the mouse cursor
+        marker.bindTooltip(`<b>${place.place}</b><br>Alt: ${place.altitude}m`, {
+            permanent: false, 
+            direction: 'top',
+            sticky: true,
+            className: 'custom-tooltip' // Optional: for custom CSS
+            }
+        );
+        // You can still keep bindPopup for "click" behavior if you want both
+        marker.bindPopup(`Full details for ${place.place}...`);
+        markers.push(marker);
         }
-    });
+        }
+    );
+
 
     if (markers.length > 0) {
         // Fit the map view to show all markers
