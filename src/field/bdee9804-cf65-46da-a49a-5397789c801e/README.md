@@ -9,16 +9,11 @@
 	type="number"
 	name="altitude"
 	label="Altitude (meters above sea level)"
-	default=""
-	description=""
+	description="Altitude (meters above sea level)"
 	class="text_area"
-	required=""
-	min="1"
+	required="true"
+	min="0"
 	max="8848"
-	step="5"
-	onchange=""
-	showon=""
-	validate=""
 />
 ```
 
