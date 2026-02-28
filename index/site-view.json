@@ -68,5 +68,40 @@
         "path": "src\/site_view\/c2f82a6c-4733-4852-9f8a-8f3c18e2fc62",
         "settings": "src\/site_view\/c2f82a6c-4733-4852-9f8a-8f3c18e2fc62\/item.json",
         "guid": "c2f82a6c-4733-4852-9f8a-8f3c18e2fc62"
+    },
+    "e8a6f606-582c-41d6-b0b0-147d1c75c7ca": {
+        "name": "Footpath single",
+        "desc": "Display of one path description, map and other info",
+        "path": "src\/site_view\/e8a6f606-582c-41d6-b0b0-147d1c75c7ca",
+        "settings": "src\/site_view\/e8a6f606-582c-41d6-b0b0-147d1c75c7ca\/item.json",
+        "guid": "e8a6f606-582c-41d6-b0b0-147d1c75c7ca"
+    },
+    "13989926-5894-4344-83dc-fba6eff3b3af": {
+        "name": "Footpaths edit list",
+        "desc": "List of footpaths for edit",
+        "path": "src\/site_view\/13989926-5894-4344-83dc-fba6eff3b3af",
+        "settings": "src\/site_view\/13989926-5894-4344-83dc-fba6eff3b3af\/item.json",
+        "guid": "13989926-5894-4344-83dc-fba6eff3b3af"
+    },
+    "d8443ac1-247d-4f5a-813a-6c71400a4294": {
+        "name": "Footpaths list",
+        "desc": "List of Footpaths",
+        "path": "src\/site_view\/d8443ac1-247d-4f5a-813a-6c71400a4294",
+        "settings": "src\/site_view\/d8443ac1-247d-4f5a-813a-6c71400a4294\/item.json",
+        "guid": "d8443ac1-247d-4f5a-813a-6c71400a4294"
+    },
+    "0326cb3a-3639-4c99-a978-70f65652fe87": {
+        "name": "Tickets edit list",
+        "desc": "List of tickets for edit",
+        "path": "src\/site_view\/0326cb3a-3639-4c99-a978-70f65652fe87",
+        "settings": "src\/site_view\/0326cb3a-3639-4c99-a978-70f65652fe87\/item.json",
+        "guid": "0326cb3a-3639-4c99-a978-70f65652fe87"
+    },
+    "7d637624-7dd1-4f4e-a7aa-cfc7d333ded0": {
+        "name": "Location map",
+        "desc": "Map of locations",
+        "path": "src\/site_view\/7d637624-7dd1-4f4e-a7aa-cfc7d333ded0",
+        "settings": "src\/site_view\/7d637624-7dd1-4f4e-a7aa-cfc7d333ded0\/item.json",
+        "guid": "7d637624-7dd1-4f4e-a7aa-cfc7d333ded0"
     }
 }
