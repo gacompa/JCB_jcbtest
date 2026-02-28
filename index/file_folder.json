@@ -73,5 +73,25 @@
         "name": "images\/com_dj\/Icons\/add-project-icon.png",
         "path": "src\/file_folder\/f4d2381a-f9c3-5e9c-b56c-2df186960577.png",
         "guid": "f4d2381a-f9c3-5e9c-b56c-2df186960577.png"
+    },
+    "1a458ba0-c459-5b16-85af-a48d4845ae63.png": {
+        "name": "images\/com_bookings\/Icons\/map-icon.png",
+        "path": "src\/file_folder\/1a458ba0-c459-5b16-85af-a48d4845ae63.png",
+        "guid": "1a458ba0-c459-5b16-85af-a48d4845ae63.png"
+    },
+    "e5b2102c-355e-5a7e-b929-cd64bef19a7e.png": {
+        "name": "images\/com_bookings\/Icons\/road-map-icon.png",
+        "path": "src\/file_folder\/e5b2102c-355e-5a7e-b929-cd64bef19a7e.png",
+        "guid": "e5b2102c-355e-5a7e-b929-cd64bef19a7e.png"
+    },
+    "5361e10e-7871-5130-bb8e-583be99a5861.png": {
+        "name": "images\/com_bookings\/Icons\/file-error-color-icon.png",
+        "path": "src\/file_folder\/5361e10e-7871-5130-bb8e-583be99a5861.png",
+        "guid": "5361e10e-7871-5130-bb8e-583be99a5861.png"
+    },
+    "99efba90-738c-5eb7-a6ae-d4909e0fab25.png": {
+        "name": "images\/com_bookings\/Icons\/exclamation-warning-round-red-icon.png",
+        "path": "src\/file_folder\/99efba90-738c-5eb7-a6ae-d4909e0fab25.png",
+        "guid": "99efba90-738c-5eb7-a6ae-d4909e0fab25.png"
     }
 }
