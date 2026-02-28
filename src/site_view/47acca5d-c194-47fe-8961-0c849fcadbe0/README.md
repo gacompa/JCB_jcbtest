@@ -1,11 +1,26 @@
 ### JCB! Site View
-# OneLocation (onelocation)
+# Location single (location_single)
 
-One site location
+Display of one location description, map and other info
 
 ## HTML:
 ```html
-<?php echo $this->toolbar->render(); ?>
+<?php JustTEXT::_(' [Space for interactive map]'); ?>
+<?php JustTEXT::_('Detailed description'); ?>
+<?php JustTEXT::_('Parameter'); ?>
+<?php JustTEXT::_('Value'); ?>
+<?php JustTEXT::_('Outdoor'); ?>
+<?php JustTEXT::_('Sleeping places'); ?>
+<?php JustTEXT::_('Outdoor'); ?>
+<?php JustTEXT::_('Rest rooms'); ?>
+<?php JustTEXT::_('Yes'); ?>
+<?php JustTEXT::_('No'); ?>
+<?php JustTEXT::_('Water'); ?>
+<?php JustTEXT::_('Heating'); ?>
+<?php JustTEXT::_('Electricity'); ?>
+<?php JustTEXT::_('Kitchen'); ?>
+<?php JustTEXT::_('Camp fire'); ?>
+
 <?php 
 // Get the application object.
 $app = JFactory::getApplication();
@@ -15,28 +30,6 @@ $jinput = $app->input;
 $itemId = $jinput->getInt('id');
 ?>
 
-
-<?php
-{
-
-
-    // Get a database connection.
-    $db = JFactory::getDbo();
-
-    // Create a new query object.
-    $query = $db->getQuery(true);
-
-    // Build the query to select all columns for the item with the given ID.
-    $query->select('*')
-          ->from('#__bookings_location')
-          ->where('id = ' . (int) $itemId);
-
-    // Set the query and load the result as a single object.
-    $db->setQuery($query);
-    $item = $db->loadObject();
-
-}
-?>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -147,84 +140,84 @@ $itemId = $jinput->getInt('id');
 <body>
 
     <div class="title-row">
-        <?php echo $item->name ; ?>
+        <?php echo $this->escape($this->item->name) ; ?>
     </div>
 
     <div class="main-content-container">
         
         <div class="image-column">
-        <img src="<?php echo $item->image ; ?>" alt="Immagine Principale">
+           <img src="<?php echo $this->escape($this->item->image) ; ?>" alt="Immagine Principale">
         </div>
 
         <div class="map-column">
-            [Spazio Riservato alla Mappa Interattiva]
+           <?php echo Text::_('COM_BOOKINGS_SPACE_FOR_INTERACTIVE_MAP') ; ?>
         </div>
 
         
     </div>
 
     <div class="detail-table-row">
-        <h2>Specifiche Dettagliate</h2>
+        <h2><?php echo Text::_('COM_BOOKINGS_DETAILED_DESCRIPTION') ; ?></h2>
         <table class="data-table">
             <thead>
                 <tr>
-                    <th>Parametro</th>
-                    <th>Valore</th>
+                    <th><?php echo Text::_('COM_BOOKINGS_PARAMETER') ; ?></th>
+                    <th><?php echo Text::_('COM_BOOKINGS_VALUE') ; ?></th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Altitudine</td>
-                    <td><?php echo $item->altitude ; ?></td>
+                    <td><?php echo Text::_('COM_BOOKINGS_ALTITUDE') ; ?></td>
+                    <td><?php echo $this->escape($this->item->place_altitude) . " " .  Text::_('COM_BOOKINGS_M_ABOVE_SEA_LEVEL') ; ?></td>
                 </tr>
                 <tr>
-                    <td>Località</td>
-                    <td><?php echo $item->location ; ?></td>
+                    <td><?php echo Text::_('COM_BOOKINGS_LOCATION') ; ?></td>
+                    <td><?php echo $this->escape($this->item->location) ; ?></td>
                 </tr>
                 <tr>
-                    <td>Posti Letto</td>
-                    <td><?php echo $item->places_indoor . " indoor | " . $item->places_outdoor . " outdoor" ; ?></td>
+                    <td><?php echo Text::_('COM_BOOKINGS_SLEEPING_PLACES') ; ?></td>
+                    <td><?php echo $this->escape($this->item->places_indoor) . " " . Text::_('COM_BOOKINGS_INDOOR') . " | " . $this->escape($this->item->places_outdoor) . " " . Text::_('COM_BOOKINGS_OUTDOOR') ; ?></td>
                 </tr>
                 <tr>
-                    <td>Rest rooms</td>
+                    <td><?php echo Text::_('COM_BOOKINGS_REST_ROOMS') ; ?></td>
                     <td>
-                        <?php echo (($item->rest_room_checkbox) ? "yes " : "no " ) ; ?>
-                        <?php echo $item->rest_room_comments ;?>
+                        <?php echo (($this->escape($this->item->rest_room_checkbox)) ? Text::_('COM_BOOKINGS_YES') . " " : Text::_('COM_BOOKINGS_NO') . " ") ; ?>
+                        <?php echo $this->escape($this->item->rest_room_comments) ;?>
                     </td>
                 </tr>
                 <tr>
-                    <td>water</td>
+                    <td><?php echo Text::_('COM_BOOKINGS_WATER') ; ?></td>
                     <td>
-                        <?php echo (($item->water_checkbox) ? "yes " : "no " ) ; ?>
-                        <?php echo $item->water_comments ;?>
+                        <?php echo (($this->escape($this->item->water_checkbox)) ? Text::_('COM_BOOKINGS_YES') . " " : Text::_('COM_BOOKINGS_NO') . " ") ; ?>
+                        <?php echo $this->escape($this->item->water_comments) ;?>
                     </td>
                 </tr>
                 <tr>
-                    <td>heating</td>
+                    <td><?php echo Text::_('COM_BOOKINGS_HEATING') ; ?></td>
                     <td>
-                        <?php echo (($item->rest_room_checkbox) ? "yes " : "no " ) ; ?>
-                        <?php echo $item->heating_comments ;?>
+                        <?php echo (($this->escape($this->item->rest_room_checkbox)) ? Text::_('COM_BOOKINGS_YES') . " " : Text::_('COM_BOOKINGS_NO') . " ") ; ?>
+                        <?php echo $this->escape($this->item->heating_comments) ;?>
                     </td>
                 </tr>
                 <tr>
-                    <td>Electricity</td>
+                    <td><?php echo Text::_('COM_BOOKINGS_ELECTRICITY') ; ?></td>
                     <td>
-                        <?php echo (($item->electricity_checkbox) ? "yes " : "no " ) ; ?>
-                        <?php echo $item->electricity_comments ;?>
+                        <?php echo (($this->escape($this->item->electricity_checkbox)) ? Text::_('COM_BOOKINGS_YES') . " " : Text::_('COM_BOOKINGS_NO') . " ") ; ?>
+                        <?php echo $this->escape($this->item->electricity_comments) ;?>
                     </td>
                 </tr>
                 <tr>
-                    <td>Kitchen</td>
+                    <td><?php echo Text::_('COM_BOOKINGS_KITCHEN') ; ?></td>
                     <td>
-                        <?php echo (($item->kitchen_checkbox) ? "yes " : "no " ) ; ?>
-                        <?php echo $item->kitchen_comments ;?>
+                        <?php echo (($this->escape($this->item->kitchen_checkbox)) ? Text::_('COM_BOOKINGS_YES') . " " : Text::_('COM_BOOKINGS_NO') . " ") ; ?>
+                        <?php echo $this->escape($this->item->kitchen_comments) ;?>
                     </td>
                 </tr>
                 <tr>
-                    <td>Camp fire</td>
+                    <td><?php echo Text::_('COM_BOOKINGS_CAMP_FIRE') ; ?></td>
                     <td>
-                        <?php echo (($item->camp_fire_checkbox) ? "yes " : "no " ) ; ?>
-                        <?php echo $item->camp_fire_comments ;?>
+                        <?php echo (($this->escape($this->item->camp_fire_checkbox)) ? Text::_('COM_BOOKINGS_YES') . " " : Text::_('COM_BOOKINGS_NO') . " ") ; ?>
+                        <?php echo $this->escape($this->item->camp_fire_comments) ;?>
                     </td>
                 </tr>
 
