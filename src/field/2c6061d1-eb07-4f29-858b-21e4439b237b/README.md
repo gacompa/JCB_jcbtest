@@ -9,15 +9,13 @@
 	type="number"
 	name="longitude"
 	label="Longitude"
-	default="9.0953321"
-	description="Enter the Longitude"
+	default="0"
+	description="Enter the Longitude (if 0 place will no show on map)"
 	class="text_area"
 	required="false"
 	min="1"
 	max="40"
 	step="5"
-	onchange=""
-	showon=""
 />
 ```
 
