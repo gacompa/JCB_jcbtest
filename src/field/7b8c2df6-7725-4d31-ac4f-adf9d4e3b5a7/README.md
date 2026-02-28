@@ -10,13 +10,9 @@
 	name="rest_room_checkbox"
 	label="Are rest rooms available"
 	value="1"
-	default=""
 	required="false"
-	description="Is the location a base"
+	description="Are rest rooms available"
 	class="inputbox"
-	showon=""
-	onchange=""
-	validate=""
 />
 ```
 
