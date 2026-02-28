@@ -82,5 +82,17 @@
         "path": "src\/admin_view\/children\/e3cfdc97-5c5f-48b0-8580-f909639c2a21",
         "settings": "src\/admin_view\/children\/e3cfdc97-5c5f-48b0-8580-f909639c2a21\/admin-fields.json",
         "guid": "e3cfdc97-5c5f-48b0-8580-f909639c2a21"
+    },
+    "858b0999-8350-46a5-9c4e-e0e715aa8b1a": {
+        "name": "858b0999-8350-46a5-9c4e-e0e715aa8b1a",
+        "path": "src\/admin_view\/children\/858b0999-8350-46a5-9c4e-e0e715aa8b1a",
+        "settings": "src\/admin_view\/children\/858b0999-8350-46a5-9c4e-e0e715aa8b1a\/admin-fields.json",
+        "guid": "858b0999-8350-46a5-9c4e-e0e715aa8b1a"
+    },
+    "f9a01525-1db5-47ee-8ba7-8ce44a10bb99": {
+        "name": "f9a01525-1db5-47ee-8ba7-8ce44a10bb99",
+        "path": "src\/admin_view\/children\/f9a01525-1db5-47ee-8ba7-8ce44a10bb99",
+        "settings": "src\/admin_view\/children\/f9a01525-1db5-47ee-8ba7-8ce44a10bb99\/admin-fields.json",
+        "guid": "f9a01525-1db5-47ee-8ba7-8ce44a10bb99"
     }
 }
