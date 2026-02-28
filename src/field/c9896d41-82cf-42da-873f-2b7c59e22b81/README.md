@@ -11,26 +11,20 @@
 	label="Short description"
 	size=""
 	maxlength="256"
-	default=""
-	description="Enter some description"
+	description="Short description"
 	class="text_area"
 	readonly="false"
 	disabled="false"
 	required="false"
 	filter="STRING"
-	validate=""
-	field=""
-	message="Error! Please add some text here."
-	hint=""
+	hint="Short description"
 	autocomplete="on"
-	showon=""
-	onchange=""
 />
 ```
 
 ## Database:
 - Data type: VARCHAR
-- Data length: 50
+- Data length: 255
 - Data default: 
 - Null switch: NULL
 - Index: NOT INDEX
