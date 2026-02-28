@@ -1,6 +1,6 @@
 ### JCB! Joomla Component
 # Bookings (v0.1.9)
-## Bookings (Bookings)
+## SC Bookings (Bookings)
 
 > Management of bookings for hikes or routes
 
