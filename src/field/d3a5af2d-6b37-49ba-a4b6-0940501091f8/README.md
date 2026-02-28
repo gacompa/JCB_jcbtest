@@ -10,13 +10,9 @@
 	name="water_checkbox"
 	label="Is water available"
 	value="1"
-	default=""
 	required="false"
-	description="Is the location a base"
+	description="Is water available"
 	class="inputbox"
-	showon=""
-	onchange=""
-	validate=""
 />
 ```
 
