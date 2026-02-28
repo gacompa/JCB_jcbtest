@@ -9,15 +9,13 @@
 	type="number"
 	name="latitude"
 	label="Latitude"
-	default="45.4628246"
-	description="Enter the Latitude"
+	default="0"
+	description="Enter the Latitude (if 0 place will no show on map)"
 	class="text_area"
 	required="false"
 	min="1"
 	max="40"
 	step="5"
-	onchange=""
-	showon=""
 />
 ```
 
