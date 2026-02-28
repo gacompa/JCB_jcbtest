@@ -52,8 +52,10 @@ This ensures maintainability while still allowing total customization per projec
  - **DJ rows** | [Details](src/admin_view/b646e37c-9675-4fe3-8937-2942a734dd20) | [Settings](src/admin_view/b646e37c-9675-4fe3-8937-2942a734dd20/item.json) | Rows for development notes
  - **Destinazione** | [Details](src/admin_view/ab6a58ce-5d20-4c0a-819b-78b06c1f6535) | [Settings](src/admin_view/ab6a58ce-5d20-4c0a-819b-78b06c1f6535/item.json) | Destinazioni
  - **Fasciolo presenze** | [Details](src/admin_view/e3cfdc97-5c5f-48b0-8580-f909639c2a21) | [Settings](src/admin_view/e3cfdc97-5c5f-48b0-8580-f909639c2a21/item.json) | Presenze Fasciolo
+ - **Footpaths** | [Details](src/admin_view/858b0999-8350-46a5-9c4e-e0e715aa8b1a) | [Settings](src/admin_view/858b0999-8350-46a5-9c4e-e0e715aa8b1a/item.json) | A footpath is a narrow way, often through fields or woods.
  - **Locations** | [Details](src/admin_view/eafd26f7-b13c-4c36-b8a3-ae7d71febb24) | [Settings](src/admin_view/eafd26f7-b13c-4c36-b8a3-ae7d71febb24/item.json) | List of locations
  - **Places** | [Details](src/admin_view/55aac7da-e105-4ab2-9c34-6ee44e8b692c) | [Settings](src/admin_view/55aac7da-e105-4ab2-9c34-6ee44e8b692c/item.json) | Relevant places in the area
+ - **Tickets** | [Details](src/admin_view/f9a01525-1db5-47ee-8ba7-8ce44a10bb99) | [Settings](src/admin_view/f9a01525-1db5-47ee-8ba7-8ce44a10bb99/item.json) | Tickets on the component
  - **Treks** | [Details](src/admin_view/5274216a-5a18-4e25-81e6-f006d1344781) | [Settings](src/admin_view/5274216a-5a18-4e25-81e6-f006d1344781/item.json) | Treks
  - **tas** | [Details](src/admin_view/f178a13e-e364-4d49-b39c-b77bac931787) | [Settings](src/admin_view/f178a13e-e364-4d49-b39c-b77bac931787/item.json) | ta
  - **tbs** | [Details](src/admin_view/33c892eb-470a-4424-bdb9-08c4e9c0c7b2) | [Settings](src/admin_view/33c892eb-470a-4424-bdb9-08c4e9c0c7b2/item.json) | tb
