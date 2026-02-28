@@ -8,23 +8,17 @@
 <field
 	type="text"
 	name="heating_comments"
-	label="Is there heating"
+	label="Comments about kitchen availability"
 	size="128"
 	maxlength="256"
-	default=""
-	description="Is there heating"
+	description="Comments about kitchen availability"
 	class="text_area"
 	readonly="false"
 	disabled="false"
 	required="false"
 	filter="STRING"
-	validate=""
-	field=""
-	message="Error! Please add some text here."
-	hint="Insert comment"
+	hint="Comment"
 	autocomplete="on"
-	showon=""
-	onchange=""
 />
 ```
 
