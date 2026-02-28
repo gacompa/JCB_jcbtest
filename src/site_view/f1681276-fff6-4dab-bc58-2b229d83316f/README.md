@@ -1,14 +1,22 @@
 ### JCB! Site View
-# Locations_edit_list (location_edit_list)
+# Locations_edit_list (locations_edit_list)
 
-List for location edit
+List of locations for edit
 
 ## HTML:
 ```html
-<?php echo $this->toolbar->render(); ?><?php echo $this->toolbar->render(); ?>
+<?php
+// Get a handle to the Joomla! application object
+$application = JFactory::getApplication();
+
+// Add a message to the message queue
+$application->enqueueMessage(JText::_(JustTEXT::_('Login to access and modify the locations data')), 'info');
+
+?>
+<?php echo $this->toolbar->render(); ?>
 <?php foreach ($this->items as $item): ?>
-<?php $baseQuery = 'index.php/booking/location-edit?id='; ?>
-	<?php echo "<a href=\"$baseQuery.$item->id\"> $item->name</a>"; ?>    
+        <?php $baseQuery = Route::_('index.php?option=com_bookings&view=location&layout=edit&id='); ?>
+	<?php echo "<a href=\"$baseQuery$item->id\"> $item->name</a>"; ?>    
 	<?php echo nl2br("\n") ; ?>
 <?php endforeach; ?>
 ```
