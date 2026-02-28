@@ -57,14 +57,19 @@ This ensures consistent updates while preserving your customizations and logic.
 
  - **Default view** | [Details](src/site_view/715839f3-0de7-4b1f-a94e-aca0954d03b9) | [Settings](src/site_view/715839f3-0de7-4b1f-a94e-aca0954d03b9/item.json) | The default view
  - **Fasciolo presenza** | [Details](src/site_view/c2f82a6c-4733-4852-9f8a-8f3c18e2fc62) | [Settings](src/site_view/c2f82a6c-4733-4852-9f8a-8f3c18e2fc62/item.json) | Registra una presenza all'inaugurazione del bivacco Fasciolo
+ - **Footpath single** | [Details](src/site_view/e8a6f606-582c-41d6-b0b0-147d1c75c7ca) | [Settings](src/site_view/e8a6f606-582c-41d6-b0b0-147d1c75c7ca/item.json) | Display of one path description, map and other info
+ - **Footpaths edit list** | [Details](src/site_view/13989926-5894-4344-83dc-fba6eff3b3af) | [Settings](src/site_view/13989926-5894-4344-83dc-fba6eff3b3af/item.json) | List of footpaths for edit
+ - **Footpaths list** | [Details](src/site_view/d8443ac1-247d-4f5a-813a-6c71400a4294) | [Settings](src/site_view/d8443ac1-247d-4f5a-813a-6c71400a4294/item.json) | List of Footpaths
  - **Location edit** | [Details](src/site_view/846a0ed0-db65-4915-b06e-fc108b7802f0) | [Settings](src/site_view/846a0ed0-db65-4915-b06e-fc108b7802f0/item.json) | Location edit
  - **Location edit list** | [Details](src/site_view/f1681276-fff6-4dab-bc58-2b229d83316f) | [Settings](src/site_view/f1681276-fff6-4dab-bc58-2b229d83316f/item.json) | List for location edit
+ - **Location map** | [Details](src/site_view/7d637624-7dd1-4f4e-a7aa-cfc7d333ded0) | [Settings](src/site_view/7d637624-7dd1-4f4e-a7aa-cfc7d333ded0/item.json) | Map of locations
  - **Locations** | [Details](src/site_view/d6f6a358-be9d-49d0-931e-ac2cbe37ba38) | [Settings](src/site_view/d6f6a358-be9d-49d0-931e-ac2cbe37ba38/item.json) | Site locations
  - **Locations list** | [Details](src/site_view/379b089a-e018-4fa9-9c42-c792a414beff) | [Settings](src/site_view/379b089a-e018-4fa9-9c42-c792a414beff/item.json) | Site view for Locations - list view
  - **Locations table view** | [Details](src/site_view/df889519-71e3-40be-b74a-5abdbff5c003) | [Settings](src/site_view/df889519-71e3-40be-b74a-5abdbff5c003/item.json) | Site locations - table view
  - **Map** | [Details](src/site_view/e6bc3a5f-909e-493c-ba8a-6a79b555b2f7) | [Settings](src/site_view/e6bc3a5f-909e-493c-ba8a-6a79b555b2f7/item.json) | Map of locations
  - **OneLocation** | [Details](src/site_view/47acca5d-c194-47fe-8961-0c849fcadbe0) | [Settings](src/site_view/47acca5d-c194-47fe-8961-0c849fcadbe0/item.json) | One site location
  - **Places** | [Details](src/site_view/6899baa6-4767-4a67-b584-55d5087a9a4f) | [Settings](src/site_view/6899baa6-4767-4a67-b584-55d5087a9a4f/item.json) | places
+ - **Tickets edit list** | [Details](src/site_view/0326cb3a-3639-4c99-a978-70f65652fe87) | [Settings](src/site_view/0326cb3a-3639-4c99-a978-70f65652fe87/item.json) | List of tickets for edit
 
 ### All used in [Joomla Component Builder](https://www.joomlacomponentbuilder.com) - [Source](https://git.vdm.dev/joomla/Component-Builder) - [Mirror](https://github.com/vdm-io/Joomla-Component-Builder) - [Download](https://git.vdm.dev/joomla/pkg-component-builder/releases)
 
